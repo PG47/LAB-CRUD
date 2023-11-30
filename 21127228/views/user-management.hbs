@@ -107,8 +107,9 @@
           {{#each users}}
           <tr>
             <td>
-              <img src="{{#if imagePath}}{{imagePath}}{{else}}/assets/img/avatars/0.jpeg{{/if}}" alt
-                class="avatar w-px-40 h-auto rounded-circle" />
+              <img src="{{#if imagePath}}{{imagePath}}{{else}}/assets/img/avatars/0.jpeg{{/if}}" alt="User Avatar" 
+              class="avatar w-px-40 h-auto rounded-circle" />
+
               {{firstName}} {{lastName}}
             </td>
             <td>{{username}}</td>
